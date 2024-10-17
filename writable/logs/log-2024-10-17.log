@@ -1,0 +1,392 @@
+CRITICAL - 2024-10-17 04:00:01 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 51.
+ 1 APPPATH\Views\PemesananMobileView.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:00:39 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 51.
+ 1 APPPATH\Views\PemesananMobileView.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:01:21 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 51.
+ 1 APPPATH\Views\PemesananMobileView.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+INFO - 2024-10-17 04:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 04:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-17 04:16:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "edit-pelanggan.php"
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit-pelanggan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pelanggan', [], true)
+ 3 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pelanggan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:18:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "edit-pelanggan.php"
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit-pelanggan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pelanggan', [], true)
+ 3 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pelanggan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:22:48 --> ErrorException: Undefined variable $pelanggan
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in APPPATH\Views\edit-pesananmobil.php on line 17.
+ 1 APPPATH\Views\edit-pesananmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelanggan', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pesananmobil', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pesananmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:26:59 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in APPPATH\Views\edit-pesananmobil.php on line 17.
+ 1 APPPATH\Views\edit-pesananmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pesananmobil', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pesananmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:28:55 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in APPPATH\Views\edit-pesananmobil.php on line 17.
+ 1 APPPATH\Views\edit-pesananmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pesananmobil', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pesananmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:29:36 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in APPPATH\Views\edit-pesananmobil.php on line 17.
+ 1 APPPATH\Views\edit-pesananmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pesananmobil', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pesananmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:29:45 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in APPPATH\Views\edit-pesananmobil.php on line 17.
+ 1 APPPATH\Views\edit-pesananmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pesananmobil', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pesananmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:31:02 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in APPPATH\Views\edit-pesananmobil.php on line 17.
+ 1 APPPATH\Views\edit-pesananmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pesananmobil', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pesananmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:31:26 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in APPPATH\Views\edit-pesananmobil.php on line 17.
+ 1 APPPATH\Views\edit-pesananmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pesananmobil', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pesananmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:33:20 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in APPPATH\Views\edit-pesananmobil.php on line 17.
+ 1 APPPATH\Views\edit-pesananmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pesananmobil', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pesananmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:43:02 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in APPPATH\Views\edit-pesananmobil.php on line 17.
+ 1 APPPATH\Views\edit-pesananmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pesananmobil', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pesananmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:53:59 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil/edit/0]
+in APPPATH\Views\edit-pesananmobil.php on line 17.
+ 1 APPPATH\Views\edit-pesananmobil.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\edit-pesananmobil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('edit-pesananmobil', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(73): view('edit-pesananmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:54:05 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:54:15 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:54:30 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:54:59 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:55:34 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:56:19 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 04:59:57 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 05:01:11 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 05:01:55 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 05:03:48 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+CRITICAL - 2024-10-17 05:04:28 --> ErrorException: Undefined variable $pemesananmobil
+[Method: GET, Route: pemesanan-mobil]
+in APPPATH\Views\PemesananMobileView.php on line 38.
+ 1 APPPATH\Views\PemesananMobileView.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pemesananmobil', 'C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\web_service-client\\app\\Views\\PemesananMobileView.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('PemesananMobileView', [], true)
+ 5 APPPATH\Controllers\pemesananmobil.php(18): view('PemesananMobileView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemesananMobil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemesananMobil))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\web_service-client\\public\\index.php')
+INFO - 2024-10-17 05:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 05:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 05:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-17 05:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
