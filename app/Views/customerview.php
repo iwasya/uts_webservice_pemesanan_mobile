@@ -73,7 +73,7 @@
 <body>
     <div class="container mt-5">
         <!-- Header -->
-        <h1 class="text-center mb-4">Daftar Pemesanan Mobil</h1>
+        <h1 class="text-center mb-4">Daftar Pelanggan</h1>
 
         <!-- Tombol Tambah Pelanggan -->
         <div class="text-right mb-3">
@@ -99,25 +99,23 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach ($pemesananmobil1 as $p): ?>
+                    <?php foreach ($customer1 as $p): ?>
                     <tr>
-                        <td><?= esc($p['id_pemesanan']) ?></td>
-                        <td><?= esc($p['id_mobil']) ?></td>
                         <td><?= esc($p['id_customer']) ?></td>
-                        <td><?= esc($p['id_sopir']) ?></td>
-                        <td><?= esc($p['tanggal_mulai']) ?></td>
-                        <td><?= esc($p['tanggal_selesai']) ?></td>
-                        <td><?= esc($p['total_harga']) ?></td>
-                        <td><?= esc($p['status_pemesanan']) ?></td>
+                        <td><?= esc($p['nik_customer']) ?></td>
+                        <td><?= esc($p['nama_customer']) ?></td>
+                        <td><?= esc($p['jenis_kelamin']) ?></td>
+                        <td><?= esc($p['pekerjaan']) ?></td>
+                        <td><?= esc($p['nomor_telepon']) ?></td>
+                        <td><?= esc($p['alamat']) ?></td>
+                        <td><?= esc($p['email']) ?></td>
 
                         <!-- Kolom Aksi -->
                         <td>
-                            <a href="<?= base_url('pemesanan-mobil/edit/'.$p['id_pemesanan']) ?>"
-                                class="btn btn-info btn-sm">
+                            <a href="<?= base_url('/customer/edit/'.$p['id_customer']) ?>" class="btn btn-info btn-sm">
                                 Edit
                             </a>
-                            <a href="<?= base_url('pemesanan-mobil/hapus/'.$p['id_pemesanan']) ?>"
-                                class="btn btn-danger btn-sm"
+                            <a href="<?= base_url('customer/hapus/'.$p['id_customer']) ?>" class="btn btn-danger btn-sm"
                                 onclick="return confirm('Apakah Anda yakin ingin menghapus Pemesanan Mobil ini?')">
                                 Hapus
                             </a>
@@ -142,38 +140,38 @@
                 </div>
                 <div class="modal-body">
                     <!-- Form Tambah Pelanggan -->
-                    <form action="<?= base_url('pemesanan-mobil/tambah') ?>" method="post">
-                        <div class="form-group">
-                            <label for="id_pemesanan">ID Pemesanan</label>
-                            <input type="text" class="form-control" name="id_pemesanan" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="id_mobil">ID Mobil</label>
-                            <input type="text" class="form-control" name="id_mobil" required>
-                        </div>
+                    <form action="<?= base_url('customer/tambah') ?>" method="post">
                         <div class="form-group">
                             <label for="id_customer">ID Customer</label>
                             <input type="text" class="form-control" name="id_customer" required>
                         </div>
                         <div class="form-group">
-                            <label for="id_sopir">ID Sopir</label>
-                            <input type="text" class="form-control" name="id_sopir" required>
+                            <label for="nik_customer">NIk Customer</label>
+                            <input type="text" class="form-control" name="nik_customer" required>
                         </div>
                         <div class="form-group">
-                            <label for="tanggal_mulai">Tanggal Mulai</label>
-                            <input type="date" class="form-control" name="tanggal_mulai" required>
+                            <label for="nama_customer">Nama Customer</label>
+                            <input type="text" class="form-control" name="nama_customer" required>
                         </div>
                         <div class="form-group">
-                            <label for="tanggal_selesai">Tanggal Selesai</label>
-                            <input type="date" class="form-control" name="tanggal_selesai" required>
+                            <label for="jenis_kelamin">jenis Kelamin</label>
+                            <input type="text" class="form-control" name="jenis_kelamin" required>
                         </div>
                         <div class="form-group">
-                            <label for="total_harga">Total Harga</label>
-                            <input type="text" class="form-control" name="total_harga" required>
+                            <label for="pekerjaan">Pekerjaan</label>
+                            <input type="text" class="form-control" name="pekerjaan" required>
                         </div>
                         <div class="form-group">
-                            <label for="status_pemesanan">Status Pemesanan</label>
-                            <input type="text" class="form-control" name="status_pemesanan" required>
+                            <label for="nomor_telepon">Nomor Telepon</label>
+                            <input type="text" class="form-control" name="nomor_telepon" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="alamat">Alamat</label>
+                            <input type="text" class="form-control" name="alamat" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" name="email" required>
                         </div>
                         <button type="submit" class="btn btn-primary">Simpan</button>
                     </form>
